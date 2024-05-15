@@ -1,0 +1,87 @@
+body {
+	margin: 0;
+	line-height: normal;
+}
+a {
+	text-decoration: none;
+	font-family: "Poetsen One", sans-serif;
+}
+h3 {
+	font-family: "Poetsen One", sans-serif;
+}
+.main-w {
+	width: 100%;
+	display: flex;
+}
+.main-w .main-h {
+	width: 60px;
+	height: 100vh;
+	background: #0a1128;
+	overflow: hidden;
+	transition: 0.3s ease-in-out;
+}
+.main-w .main-h active {
+	width: 20%;
+}
+.main-w .main-h .main-n {
+	width: 100%;
+}
+.main-w .main-h .main-n .navbar {
+	width: 100%;
+}
+.main-w .main-h .main-n .navbar .navbar-n {
+	width: 100%;
+}
+.main-w .main-h .main-n .navbar .navbar-n .title {
+	padding: 15px 19px;
+	border-bottom: 1px solid #2f3e46;
+}
+.main-w .main-h .main-n .navbar .navbar-n .title .h3 {
+	font-size: 25px;
+	font-weight: 500;
+	color: #fff;
+	position: relative;
+}
+
+.main-w .main-h .main-n .navbar .navbar-n .title .h3 .title-t {
+	position: absolute;
+	left: 35px;
+	opacity: 1;
+	transition: 0.2s ease;
+}
+.main-w .main-h .main-n .navbar .navbar-n .nav-l {
+	margin: 0;
+	padding: 10px 10px;
+}
+.main-w .main-h .main-n .navbar .navbar-n .nav-l .nav-l-item {
+	padding: 15px 10px;
+	list-style: none;
+	border-radius: 5px;
+	margin-bottom: 15px;
+	cursor: pointer;
+	transition: 0.2s ease-in-out;
+}
+.main-w .main-h .main-n .navbar .navbar-n .nav-l .nav-l-item:hover {
+	background: #2f3e46;
+}
+.main-w .main-h .main-n .navbar .navbar-n .nav-l .nav-l-item .nav-link {
+	display: inline-block;
+	font-size: 15px;
+	font-weight: 500;
+	letter-spacing: 0.5px;
+	color: #fff;
+	position: relative;
+}
+.main-w .main-h .main-n .navbar .navbar-n .nav-l .nav-l-item .nav-link i {
+	font-size: 20px;
+}
+.main-w .main-h .main-n .navbar .navbar-n .nav-l .nav-l-item .nav-link .link-t {
+	position: absolute;
+	top: 3px;
+	left: 35px;
+	opacity: 1;
+	transition: 0.2s ease-in-out;
+}
+.main-w .showcase {
+	width: 80%;
+}
