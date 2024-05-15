@@ -5,6 +5,7 @@
 		<meta charset="UTF-8" />
 		<title>Student Management System</title>
 		<link rel="stylesheet" href="SISmain.css" />
+		<link rel = "stylesheet" href = "SISDash.css"/>
 		<!-- Boxicons CDN Link -->
 		<link
 			href="https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css"
@@ -27,60 +28,60 @@
 					<span class="tooltip">Search</span>
 				</li>
 				<li>
-					<a href="#">
+					<a href="SISgrading.html">
 						<i class="bx bx-grid-alt"></i>
-						<a href="" class="links_name">My Enrollment</a>
+						<span class="links_name">Grading Students</span>
 					</a>
-					<a class="tooltip">My Enrollment </a>
+					<span class="tooltip">Grading Students </span>
 				</li>
 				<li>
-					<a href="#">
+					<a href="SISgrades.html">
 						<i class="bx bx-user"></i>
-						<a href="SISview.html" class="links_name">My Grades</a>
+						<span class="links_name">Student Grades</span>
 					</a>
-					<a class="tooltip">My Grades</a>
+					<span class="tooltip">Student Grades</span>
 				</li>
 				<li>
 					<a href="#">
 						<i class="bx bx-chat"></i>
-						<a class="links_name">Account Balance</a>
+						<span class="links_name">Account Balance</span>
 					</a>
-					<a class="tooltip">Account Balance</a>
+					<span class="tooltip">Account Balance</span>
 				</li>
 				<li>
-					<a href="#">
+					<a href="SISview.html">
 						<i class="bx bx-pie-chart-alt-2"></i>
-						<a class="links_name">Curriculum</a>
+						<span class="links_name">Curriculum</span>
 					</a>
-					<a class="tooltip">Curriculum</a>
+					<span class="tooltip">Curriculum</span>
 				</li>
 				<li>
 					<a href="#">
 						<i class="bx bx-folder"></i>
-						<a class="links_name">Class Attendance</a>
+						<span class="links_name">Class Attendance</span>
 					</a>
-					<a class="tooltip">Class Attendance</a>
+					<span class="tooltip">Class Attendance</span>
 				</li>
 				<li>
 					<a href="#">
 						<i class="bx bx-cart-alt"></i>
-						<a class="links_name">Pre-Registration</a>
+						<span class="links_name">Pre-Registration</span>
 					</a>
-					<a class="tooltip">Pre-Registration</a>
+					<span class="tooltip">Pre-Registration</span>
 				</li>
 				<li>
 					<a href="#">
 						<i class="bx bx-heart"></i>
-						<a class="links_name">Final Exam</a>
+						<span class="links_name">Final Exam</span>
 					</a>
-					<a class="tooltip">Final Exam</a>
+					<span class="tooltip">Final Exam</span>
 				</li>
 				<li>
 					<a href="#">
 						<i class="bx bx-cog"></i>
-						<a class="links_name">Setting</a>
+						<span class="links_name">Setting</span>
 					</a>
-					<a class="tooltip">Setting</a>
+					<span class="tooltip">Setting</span>
 				</li>
 				<li class="profile">
 					<div class="profile-details">
@@ -95,9 +96,143 @@
 			</ul>
 		</div>
 		<!---End of NavBar--->
-		<section class="home-section">
-			<div class="text">Dashboard</div>
-		</section>
+		<section class="main">
+			<div class="main-top">
+			  <h1>Attendance</h1>
+			  <i class="fas fa-user-cog"></i>
+			</div>
+			<div class="users">
+			  <div class="card">
+				<img src="./pic/img1.jpg">
+				<h4>Sam David</h4>
+				<p>Ui designer</p>
+				<div class="per">
+				  <table>
+					<tr>
+					  <td><span>85%</span></td>
+					  <td><span>87%</span></td>
+					</tr>
+					<tr>
+					  <td>Month</td>
+					  <td>Year</td>
+					</tr>
+				  </table>
+				</div>
+				<button>Profile</button>
+			  </div>
+			  <div class="card">
+				<img src="./pic/img2.jpg">
+				<h4>Balbina kherr</h4>
+				<p>Progammer</p>
+				<div class="per">
+				  <table>
+					<tr>
+					  <td><span>82%</span></td>
+					  <td><span>85%</span></td>
+					</tr>
+					<tr>
+					  <td>Month</td>
+					  <td>Year</td>
+					</tr>
+				  </table>
+				</div>
+				<button>Profile</button>
+			  </div>
+			  <div class="card">
+				<img src="./pic/img3.jpg">
+				<h4>Badan John</h4>
+				<p>tester</p>
+				<div class="per">
+				  <table>
+					<tr>
+					  <td><span>94%</span></td>
+					  <td><span>92%</span></td>
+					</tr>
+					<tr>
+					  <td>Month</td>
+					  <td>Year</td>
+					</tr>
+				  </table>
+				</div>
+				<button>Profile</button>
+			  </div>
+			  <div class="card">
+				<img src="./pic/img4.jpg">
+				<h4>Salina micheal</h4>
+				<p>Ui designer</p>
+				<div class="per">
+				  <table>
+					<tr>
+					  <td><span>85%</span></td>
+					  <td><span>82%</span></td>
+					</tr>
+					<tr>
+					  <td>Month</td>
+					  <td>Year</td>
+					</tr>
+				  </table>
+				</div>
+				<button>Profile</button>
+			  </div>
+			</div>
+			<section class="attendance">
+			  <div class="attendance-list">
+				<h1>Attendance List</h1>
+				<table class="table">
+				  <thead>
+					<tr>
+					  <th>ID</th>
+					  <th>Name</th>
+					  <th>Depart</th>
+					  <th>Date</th>
+					  <th>Join Time</th>
+					  <th>Logout Time</th>
+					  <th>Details</th>
+					</tr>
+				  </thead>
+				  <tbody>
+					<tr>
+					  <td>01</td>
+					  <td>Sam David</td>
+					  <td>Design</td>
+					  <td>03-24-22</td>
+					  <td>8:00AM</td>
+					  <td>3:00PM</td>
+					  <td><button>View</button></td>
+					</tr>
+					<tr class="active">
+					  <td>02</td>
+					  <td>Balbina Kherr</td>
+					  <td>Coding</td>
+					  <td>03-24-22</td>
+					  <td>9:00AM</td>
+					  <td>4:00PM</td>
+					  <td><button>View</button></td>
+					</tr>
+					<tr>
+					  <td>03</td>
+					  <td>Badan John</td>
+					  <td>testing</td>
+					  <td>03-24-22</td>
+					  <td>8:00AM</td>
+					  <td>3:00PM</td>
+					  <td><button>View</button></td>
+					</tr>
+					<tr>
+					  <td>04</td>
+					  <td>Sara David</td>
+					  <td>Design</td>
+					  <td>03-24-22</td>
+					  <td>8:00AM</td>
+					  <td>3:00PM</td>
+					  <td><button>View</button></td>
+					</tr>
+				  </tbody>
+				</table>
+			  </div>
+			</section>
+		  </section>
+		</div>
 		<script src="SISmain.js"></script>
 	</body>
 </html>
